@@ -1,0 +1,77 @@
+span { 
+    color: red;
+}
+
+.blockSpan {
+    display: inline;    
+    /* display: block; */
+}
+
+a {
+    display: inline-block; 
+    width: 500px;
+    /* display: none; Скрывает элемент(но не убирает его)*/
+    /* Строчный элемент не применяет функции как блочный элемент */
+    /* Элементы бывают строчные и блочные( строчные во всю строку блочные на каждую новоую строку) */
+    /* static,absolute,relative. Позиции*/
+
+}
+/* .header {  
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 500px;
+    height: 100px;
+    background-color: black;
+     Этот код чтобы двигать div внутри body,header, div в div'е итп 
+} */
+
+.outer {
+    position: relative;
+    left: 80px;
+    top: 40px;
+    width: 430px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.inner {
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    background-color:  black;
+}
+
+/* .content { 
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 250px;
+    height: 180px;
+    background-color: black;
+    border: 1px solid orange;
+}
+
+/* .redBlock { 
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    z-index: 1;
+}
+
+/* .blueBlock { 
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    width: 80px;
+    height: 80px;
+    background-color:blue;
+    z-index: 0;
+} 
+/* position:fixed; Спец штука чтобы когда сайт листаешь этот элемент двигался ввеерх вниз несмотря не на что */
+
