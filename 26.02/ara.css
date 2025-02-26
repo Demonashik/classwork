@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    border: solid 0.25em #000;
+    width: 60%;
+    height: 8.25em;
+    flex-wrap: wrap;
+    /* wrap как ведут себя элементы они сдвигаются если двигается окно влево-вправо только для flex-direction либо dlex-wrap*/
+}
+.row {
+    flex-direction: row;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.flex-item {
+    text-align: center;
+    font-size: 1em;
+    padding: 1.5em;
+    color: rgb(248, 0, 0);
+    opacity: 0.8;
+}
+
+.color1 {background-color: black;}
+.color2 {background-color: blue;}
+.color3 {background-color: orange;}
+.color4 {background-color: gray;}
+.color5 {background-color: #461;}
+
+
+
